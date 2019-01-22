@@ -1,0 +1,126 @@
+/*
+3 TIPOS DESELECTORES 
+ETIQUETA,ID,CLASE*/
+*{
+
+border: 0;/* BORDE DONDE EMPIEZA*/
+margin: 0;/* ESPACIO ENTRE AMBOS CUADRITOS*/
+padding: 0;/* TAMAÑO DEL CUADRO*/
+
+
+}
+
+body{ /*para cambiar color de la pagina .....tambien #rgb*/
+
+background-color: rgb(080,208,255);
+
+color: white; 
+
+text-align: center;
+
+
+}
+h1{
+font-size: 4em;
+margin: 0.5em;
+
+}
+ul{
+
+	width: 100%;
+
+}
+
+ul li{
+
+    border: 1px solid white;
+    border-radius: 16px;
+    color: white;
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 0.5em;
+	width: 20%;
+
+
+}
+
+ul li:hover{
+
+border: double;
+
+background-color: rgb(150,208,255);
+
+transition: .3s;
+
+}
+/*
+section{
+margin-top: 1em;
+width: 100%;
+
+}
+section article{
+	background-color: white;
+	display: inline-block;
+	width: 60%;
+
+}
+
+section aside{
+	background-color: white;
+	min-height: 530px;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+
+}
+
+section img{
+
+	max-width: 100%;
+}*/
+
+footer{
+
+background-color:rgb(100,149,237) ;
+box-sizing: border-box;
+font-weight: bold;
+color: white;
+padding: 2em;
+width: 100%;
+margin-bottom: 0%;
+
+}
+section#gal{
+
+
+	background-color: rgb(100,230,255);
+	width: 100%;
+}
+
+article.galeria{
+
+	display: inline-block;
+	cursor: pointer;
+	margin: .5em;
+	width: 20%;
+}
+
+article.galeria:hover{
+
+	transform: scale(1.1);
+	transition: .5s;
+}
+/*article.galeria img:hover{
+
+opacity: 0.7;
+transition: 0.5s;
+
+}*/
+
+article.galeria img{
+
+max-height: 200px;
+	max-width: 80%;
+
+}

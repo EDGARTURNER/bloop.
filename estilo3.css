@@ -1,0 +1,66 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+        border: 0;/* BORDE DONDE EMPIEZA*/
+        margin: 0;/* ESPACIO ENTRE AMBOS CUADRITOS*/
+        padding: 0;/* TAMAÑO DEL CUADRO*/
+        
+        
+        }
+        section article{
+            border: 30%;
+        display: inline-block;
+        /*display: inline-block;
+        */
+        margin: 5% 5%;
+        
+        
+        }
+        article.galeria:hover{
+        
+            transform: scale(1.1);
+            transition: .5s;
+        }
+        /*article.galeria img:hover{
+        
+        opacity: 0.7;
+        transition: 0.5s;
+        
+        }*/
+        
+        article.galeria img{
+        
+        max-height: 210px;
+            max-width: 80%;
+            
+        
+        
+        }
+        
+        
+.mod1{
+    width: 100%;
+    position: fixed;
+    
+    }
+    .header-top{
+    width: 100%;
+    background: grey;
+    }
+    
+    .navegacion{
+    
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+    input[type="search"]{
+    padding: 8px;
+    padding-right: 35px;
+    
+    
+    }
+    p#texto{
+        text-shadow: 3px 3px 3px white;
+    }
+    
+    

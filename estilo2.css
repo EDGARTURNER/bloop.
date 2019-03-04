@@ -1,0 +1,111 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+        
+        margin: 0;/* ESPACIO ENTRE AMBOS CUADRITOS*/
+        padding: 0;/* TAMAÑO DEL CUADRO*/
+
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+        
+        
+        }
+
+        .imgCon{
+background-image: url("final7.jpg");
+
+        }
+
+        article.galeriaUni img{
+
+            max-height: 700px;
+                max-width: 100%;
+            margin: 2%;
+
+            }
+
+.formt{
+
+    font-weight: normal;
+    font-family: sans-serif;
+    color: rgb(84, 132, 151);
+    text-align: center;
+    padding: 14px 0;
+
+
+}
+            
+
+.formt  span {
+
+color: white;
+
+}
+
+.sombra{
+
+    background: rgba(0, 0, 0,.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+
+    padding-bottom: 30px;
+    border-radius: 3px;
+
+
+
+}
+
+.form-label{
+display: block;
+color: rgb(84, 132, 151);
+font-size: 16px;
+
+
+}
+
+.form-input,.form-textarea{
+
+    background: rgba(0, 0, 0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid  rgb(84, 132, 151);
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    font-family: Roboto;
+
+
+}
+
+.form-textarea{
+resize: vertical;
+max-height: 150px;
+min-height: 50px;
+
+}
+.btn-submit{
+width: 100%;
+font-family: Roboto;
+outline: none;
+background: rgb(84, 132, 151) ;
+font-size: 16px;
+border: none;
+color: white;
+padding: 15px 0;
+cursor: pointer;
+
+    
+}
+
+.btn-submit:hover{
+
+background: rgb(74, 74, 136);
+transition: .5s;
+}

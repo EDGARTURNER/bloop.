@@ -1,0 +1,81 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+        border: 0;/* BORDE DONDE EMPIEZA*/
+        margin: 0;/* ESPACIO ENTRE AMBOS CUADRITOS*/
+        padding: 0;/* TAMAÑO DEL CUADRO*/
+        
+        
+        }
+        body{
+
+            background-color: #71a0a5;
+        }
+.index1{
+    margin: 20px 7px;
+    color: rgb(250, 250, 250);
+}
+    .icono1{
+        display: block;
+height: 40px;
+        width: 40px;
+
+    }
+    .icono1:hover{
+transform: scale(1.1);
+
+    }
+        li{
+            float: left;
+
+        }
+        .derechabarra{
+float: right;
+
+
+        }
+        ul{
+            
+            
+            list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b4353;
+           
+
+
+        }
+
+        li a{
+
+          
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 6px 15px;
+            text-decoration: none;
+           font-size: 20px;
+           margin: 5px;
+            
+
+        }
+
+        li a:hover{
+color: black;
+        }
+
+        .iconopaginicio{
+               
+            margin: 10px 80px;
+
+        }
+        .textoicono{
+            float: right;
+            font-size: 60px;
+            padding: 170px 64px 0px 0px;
+            color: rgb(54, 52, 52);
+            
+
+
+        }
+    
